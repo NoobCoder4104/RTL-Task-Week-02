@@ -1,6 +1,4 @@
-# Complete GitHub README.md for RTL Analysis Project
-
-Copy and paste this entire README into your GitHub repository's `README.md` file. Fill in the `[ ]` placeholders with your actual information.
+# RTL Analysis for APB and I2C Communication Protocols
 
 ---
 
