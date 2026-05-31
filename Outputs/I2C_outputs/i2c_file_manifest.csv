@@ -1,0 +1,4 @@
+file_name,file_path,file_type,is_top_module
+I2C.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\I2C_RTL\I2C.v,rtl_source,unknown
+I2C_Master.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\I2C_RTL\I2C_Master.v,rtl_source,submodule_master
+I2C_Slave.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\I2C_RTL\I2C_Slave.v,rtl_source,submodule_slave

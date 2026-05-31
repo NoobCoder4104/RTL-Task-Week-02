@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "metadata": {
+    "generated_by": "ir_builder.py",
+    "timestamp": "2026-05-24T16:32:32.998154",
+    "source_file": "slave1.v",
+    "protocol": "APB"
+  },
+  "module": {
+    "name": "slave1",
+    "type": "top"
+  },
+  "ports": [
+    {
+      "name": "PCLK",
+      "direction": "input",
+      "width": 1,
+      "role": "clock"
+    },
+    {
+      "name": "PSEL",
+      "direction": "input",
+      "width": 1,
+      "role": "control"
+    },
+    {
+      "name": "PREADY",
+      "direction": "output",
+      "width": 1,
+      "role": "response"
+    }
+  ],
+  "signals": [],
+  "parameters": [],
+  "fsm": {
+    "states": [],
+    "encoding": null
+  },
+  "datapath": [],
+  "reset": {
+    "signal": null,
+    "polarity": null,
+    "type": "synchronous"
+  }
+}

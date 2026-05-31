@@ -1,0 +1,21 @@
+{
+  "module_name": "i2c",
+  "ports_count": 4,
+  "fsm_states": [
+    "address",
+    "write_data",
+    "read_data",
+    "SLAVE_ADDRESS",
+    "REGISTER_ADDRESS",
+    "DATA_IN",
+    "DATA_OUT",
+    "slave_address",
+    "register_address",
+    "data_in",
+    "data_out",
+    "ext_slave_address_in",
+    "ext_register_address_in",
+    "ext_data_in",
+    "ext_data_out"
+  ]
+}

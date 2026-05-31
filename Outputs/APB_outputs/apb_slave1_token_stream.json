@@ -1,0 +1,857 @@
+[
+  {
+    "type": "UNKNOWN",
+    "value": "`",
+    "line": 10
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "timescale",
+    "line": 10
+  },
+  {
+    "type": "NUMBER",
+    "value": "1",
+    "line": 10
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ns",
+    "line": 10
+  },
+  {
+    "type": "OPERATOR",
+    "value": "/",
+    "line": 10
+  },
+  {
+    "type": "NUMBER",
+    "value": "1",
+    "line": 10
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ns",
+    "line": 10
+  },
+  {
+    "type": "KEYWORD",
+    "value": "module",
+    "line": 14
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave1",
+    "line": 14
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 14
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 15
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PCLK",
+    "line": 15
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 15
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PRESETn",
+    "line": 15
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 15
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 16
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PSEL",
+    "line": 16
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 16
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PENABLE",
+    "line": 16
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 16
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWRITE",
+    "line": 16
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 16
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 17
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 17
+  },
+  {
+    "type": "NUMBER",
+    "value": "7",
+    "line": 17
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 17
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 17
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 17
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PADDR",
+    "line": 17
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 17
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWDATA",
+    "line": 17
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 17
+  },
+  {
+    "type": "KEYWORD",
+    "value": "output",
+    "line": 18
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 18
+  },
+  {
+    "type": "NUMBER",
+    "value": "7",
+    "line": 18
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 18
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 18
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 18
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PRDATA1",
+    "line": 18
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 18
+  },
+  {
+    "type": "KEYWORD",
+    "value": "output",
+    "line": 19
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 19
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 19
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 19
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 19
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 21
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 21
+  },
+  {
+    "type": "NUMBER",
+    "value": "7",
+    "line": 21
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 21
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 21
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 21
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "reg_addr",
+    "line": 21
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 21
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 22
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 22
+  },
+  {
+    "type": "NUMBER",
+    "value": "7",
+    "line": 22
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 22
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 22
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 22
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "mem",
+    "line": 22
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 22
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 22
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 22
+  },
+  {
+    "type": "NUMBER",
+    "value": "63",
+    "line": 22
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 22
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 22
+  },
+  {
+    "type": "KEYWORD",
+    "value": "assign",
+    "line": 24
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PRDATA1",
+    "line": 24
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 24
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "mem",
+    "line": 24
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 24
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "reg_addr",
+    "line": 24
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 24
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 24
+  },
+  {
+    "type": "KEYWORD",
+    "value": "always",
+    "line": 26
+  },
+  {
+    "type": "UNKNOWN",
+    "value": "@",
+    "line": 26
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 26
+  },
+  {
+    "type": "OPERATOR",
+    "value": "*",
+    "line": 26
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 26
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 27
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 28
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 28
+  },
+  {
+    "type": "OPERATOR",
+    "value": "!",
+    "line": 28
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PRESETn",
+    "line": 28
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 28
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 29
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 29
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 29
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 29
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 30
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 31
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 31
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PSEL",
+    "line": 31
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 31
+  },
+  {
+    "type": "OPERATOR",
+    "value": "!",
+    "line": 31
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PENABLE",
+    "line": 31
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 31
+  },
+  {
+    "type": "OPERATOR",
+    "value": "!",
+    "line": 31
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWRITE",
+    "line": 31
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 31
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 32
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 32
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 32
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 32
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 32
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 32
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 34
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 34
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 34
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PSEL",
+    "line": 34
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 34
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PENABLE",
+    "line": 34
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 34
+  },
+  {
+    "type": "OPERATOR",
+    "value": "!",
+    "line": 34
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWRITE",
+    "line": 34
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 34
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 35
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 35
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 35
+  },
+  {
+    "type": "NUMBER",
+    "value": "1",
+    "line": 35
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 35
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "reg_addr",
+    "line": 36
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 36
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PADDR",
+    "line": 36
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 36
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 37
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 38
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 38
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 38
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PSEL",
+    "line": 38
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 38
+  },
+  {
+    "type": "OPERATOR",
+    "value": "!",
+    "line": 38
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PENABLE",
+    "line": 38
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 38
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWRITE",
+    "line": 38
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 38
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 39
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 39
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 39
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 39
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 39
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 39
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 41
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 41
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 41
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PSEL",
+    "line": 41
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 41
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PENABLE",
+    "line": 41
+  },
+  {
+    "type": "OPERATOR",
+    "value": "&&",
+    "line": 41
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWRITE",
+    "line": 41
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 41
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 42
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 42
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 42
+  },
+  {
+    "type": "NUMBER",
+    "value": "1",
+    "line": 42
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 42
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "mem",
+    "line": 43
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 43
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PADDR",
+    "line": 43
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 43
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 43
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PWDATA",
+    "line": 43
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 43
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 43
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 45
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "PREADY",
+    "line": 45
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 45
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 45
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 45
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 46
+  },
+  {
+    "type": "KEYWORD",
+    "value": "endmodule",
+    "line": 47
+  }
+]

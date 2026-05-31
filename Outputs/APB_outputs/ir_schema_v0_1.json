@@ -1,0 +1,130 @@
+{
+  "schema_name": "RTL Intermediate Representation",
+  "version": "0.1",
+  "description": "Semantic IR for RTL analysis",
+  "fields": {
+    "schema_version": {
+      "type": "string",
+      "required": true
+    },
+    "metadata": {
+      "type": "object",
+      "fields": {
+        "generated_by": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        },
+        "protocol": {
+          "type": "string"
+        }
+      }
+    },
+    "module": {
+      "type": "object",
+      "fields": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "top",
+            "submodule"
+          ]
+        }
+      }
+    },
+    "ports": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "input",
+            "output",
+            "inout"
+          ]
+        },
+        "width": {
+          "type": "integer"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "clock",
+            "reset",
+            "data",
+            "address",
+            "control",
+            "response",
+            "other"
+          ]
+        },
+        "polarity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "active_low",
+            "active_high",
+            null
+          ]
+        }
+      }
+    },
+    "fsm": {
+      "type": "object",
+      "fields": {
+        "states": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "encoding": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "reset": {
+      "type": "object",
+      "fields": {
+        "signal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "polarity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "synchronous",
+            "asynchronous",
+            null
+          ]
+        }
+      }
+    }
+  }
+}

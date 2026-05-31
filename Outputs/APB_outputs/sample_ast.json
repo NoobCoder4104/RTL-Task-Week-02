@@ -1,0 +1,28 @@
+{
+  "protocol": "APB",
+  "module_name": "slave2",
+  "ports_count": 3,
+  "fsm_states": [],
+  "parameters_count": 0,
+  "always_blocks_count": 0,
+  "first_5_ports": [
+    {
+      "name": "PCLK",
+      "direction": "input",
+      "type": "wire",
+      "width": null
+    },
+    {
+      "name": "PSEL",
+      "direction": "input",
+      "type": "wire",
+      "width": null
+    },
+    {
+      "name": "PREADY",
+      "direction": "output",
+      "type": "reg",
+      "width": null
+    }
+  ]
+}

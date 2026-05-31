@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "metadata": {
+    "generated_by": "ir_builder.py",
+    "protocol": "APB",
+    "module": "slave2"
+  },
+  "module": {
+    "name": "slave2",
+    "type": "top"
+  },
+  "ports_summary": [
+    {
+      "name": "PCLK",
+      "role": "clock"
+    },
+    {
+      "name": "PSEL",
+      "role": "control"
+    },
+    {
+      "name": "PREADY",
+      "role": "response"
+    }
+  ],
+  "fsm_states": [],
+  "reset": {
+    "signal": null,
+    "polarity": null,
+    "type": "synchronous"
+  }
+}

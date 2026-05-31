@@ -1,0 +1,17 @@
+IR SUMMARY - APB slave2
+============================================================
+
+Module: slave2
+Type: top
+
+PORTS BY ROLE:
+----------------------------------------
+  clock: PCLK
+  control: PSEL
+  response: PREADY
+
+FSM STATES: 
+
+RESET: None (None, synchronous)
+
+DATAPATH SIGNALS: None detected

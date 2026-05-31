@@ -1,0 +1,114 @@
+{
+  "protocol": "APB",
+  "module": "slave2",
+  "total_tokens": 625,
+  "token_categories": {
+    "KEYWORD": 104,
+    "IDENTIFIER": 160,
+    "NUMBER": 62,
+    "OPERATOR": 112,
+    "PUNCTUATION": 178
+  },
+  "first_20_tokens": [
+    {
+      "type": "UNKNOWN",
+      "value": "`",
+      "line": 14
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "timescale",
+      "line": 14
+    },
+    {
+      "type": "NUMBER",
+      "value": "1",
+      "line": 14
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "ns",
+      "line": 14
+    },
+    {
+      "type": "OPERATOR",
+      "value": "/",
+      "line": 14
+    },
+    {
+      "type": "NUMBER",
+      "value": "1",
+      "line": 14
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "ns",
+      "line": 14
+    },
+    {
+      "type": "KEYWORD",
+      "value": "module",
+      "line": 18
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "slave2",
+      "line": 18
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": "(",
+      "line": 18
+    },
+    {
+      "type": "KEYWORD",
+      "value": "input",
+      "line": 19
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "PCLK",
+      "line": 19
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 19
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "PRESETn",
+      "line": 19
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 19
+    },
+    {
+      "type": "KEYWORD",
+      "value": "input",
+      "line": 20
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "PSEL",
+      "line": 20
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 20
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "PENABLE",
+      "line": 20
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 20
+    }
+  ]
+}

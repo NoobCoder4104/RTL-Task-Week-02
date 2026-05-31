@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "generated_by": "clock_reset_analyzer.py",
+    "timestamp": "2026-05-23T01:07:03.281644",
+    "protocol": "APB",
+    "module": "slave1"
+  },
+  "clocks": [
+    {
+      "name": "PCLK",
+      "source": "port",
+      "direction": "input"
+    }
+  ],
+  "resets": [],
+  "always_blocks_analysis": [
+    {
+      "id": 1,
+      "sensitivity_list": "*",
+      "clock": null,
+      "reset": null,
+      "reset_type": null
+    }
+  ],
+  "reset_dependencies": [],
+  "summary": {
+    "total_clocks": 1,
+    "total_resets": 0,
+    "total_always_blocks": 1,
+    "async_resets": 0,
+    "sync_resets": 0,
+    "active_low_resets": 0,
+    "active_high_resets": 0,
+    "registers_under_reset": 0,
+    "ir_reset_signal": null,
+    "ir_reset_polarity": null,
+    "ir_reset_type": "synchronous"
+  }
+}

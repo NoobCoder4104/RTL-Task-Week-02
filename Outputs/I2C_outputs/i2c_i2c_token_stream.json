@@ -1,0 +1,2087 @@
+[
+  {
+    "type": "KEYWORD",
+    "value": "module",
+    "line": 7
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "i2c",
+    "line": 7
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 7
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 8
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 8
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "clk",
+    "line": 8
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 8
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 9
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 9
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "rst",
+    "line": 9
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 9
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 10
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 10
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 10
+  },
+  {
+    "type": "NUMBER",
+    "value": "2",
+    "line": 10
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 10
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 10
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 10
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "address",
+    "line": 10
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 10
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 11
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 11
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 11
+  },
+  {
+    "type": "NUMBER",
+    "value": "31",
+    "line": 11
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 11
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 11
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 11
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "write_data",
+    "line": 11
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 11
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 12
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 12
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "we",
+    "line": 12
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 12
+  },
+  {
+    "type": "KEYWORD",
+    "value": "input",
+    "line": 13
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 13
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "re",
+    "line": 13
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 13
+  },
+  {
+    "type": "KEYWORD",
+    "value": "output",
+    "line": 14
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 14
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 14
+  },
+  {
+    "type": "NUMBER",
+    "value": "31",
+    "line": 14
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 14
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 14
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 14
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_data",
+    "line": 14
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 15
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 15
+  },
+  {
+    "type": "KEYWORD",
+    "value": "localparam",
+    "line": 19
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ENABLE",
+    "line": 19
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 19
+  },
+  {
+    "type": "NUMBER",
+    "value": "3'b000",
+    "line": 19
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 19
+  },
+  {
+    "type": "KEYWORD",
+    "value": "localparam",
+    "line": 20
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "SLAVE_ADDRESS",
+    "line": 20
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 20
+  },
+  {
+    "type": "NUMBER",
+    "value": "3'b001",
+    "line": 20
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 20
+  },
+  {
+    "type": "KEYWORD",
+    "value": "localparam",
+    "line": 21
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "READ_WRITE",
+    "line": 21
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 21
+  },
+  {
+    "type": "NUMBER",
+    "value": "3'b010",
+    "line": 21
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 21
+  },
+  {
+    "type": "KEYWORD",
+    "value": "localparam",
+    "line": 22
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "REGISTER_ADDRESS",
+    "line": 22
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 22
+  },
+  {
+    "type": "NUMBER",
+    "value": "3'b011",
+    "line": 22
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 22
+  },
+  {
+    "type": "KEYWORD",
+    "value": "localparam",
+    "line": 23
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "DATA_IN",
+    "line": 23
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 23
+  },
+  {
+    "type": "NUMBER",
+    "value": "3'b100",
+    "line": 23
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 23
+  },
+  {
+    "type": "KEYWORD",
+    "value": "localparam",
+    "line": 24
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "DATA_OUT",
+    "line": 24
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 24
+  },
+  {
+    "type": "NUMBER",
+    "value": "3'b101",
+    "line": 24
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 24
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 26
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "enable",
+    "line": 26
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 26
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 27
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 27
+  },
+  {
+    "type": "NUMBER",
+    "value": "6",
+    "line": 27
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 27
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 27
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 27
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave_address",
+    "line": 27
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 27
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 28
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_write",
+    "line": 28
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 28
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 29
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 29
+  },
+  {
+    "type": "NUMBER",
+    "value": "7",
+    "line": 29
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 29
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 29
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 29
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "register_address",
+    "line": 29
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 29
+  },
+  {
+    "type": "KEYWORD",
+    "value": "reg",
+    "line": 30
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 30
+  },
+  {
+    "type": "NUMBER",
+    "value": "31",
+    "line": 30
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 30
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 30
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 30
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_in",
+    "line": 30
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 30
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 31
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 31
+  },
+  {
+    "type": "NUMBER",
+    "value": "31",
+    "line": 31
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 31
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 31
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 31
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_out",
+    "line": 31
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 31
+  },
+  {
+    "type": "KEYWORD",
+    "value": "always",
+    "line": 33
+  },
+  {
+    "type": "UNKNOWN",
+    "value": "@",
+    "line": 33
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 33
+  },
+  {
+    "type": "OPERATOR",
+    "value": "*",
+    "line": 33
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 33
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 33
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 34
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 34
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "rst",
+    "line": 34
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 34
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 34
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "enable",
+    "line": 35
+  },
+  {
+    "type": "OPERATOR",
+    "value": "<=",
+    "line": 35
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 35
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 35
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave_address",
+    "line": 36
+  },
+  {
+    "type": "OPERATOR",
+    "value": "<=",
+    "line": 36
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 36
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 36
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_write",
+    "line": 37
+  },
+  {
+    "type": "OPERATOR",
+    "value": "<=",
+    "line": 37
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 37
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 37
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "register_address",
+    "line": 38
+  },
+  {
+    "type": "OPERATOR",
+    "value": "<=",
+    "line": 38
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 38
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 38
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_in",
+    "line": 39
+  },
+  {
+    "type": "OPERATOR",
+    "value": "<=",
+    "line": 39
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 39
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 39
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 40
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 41
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 41
+  },
+  {
+    "type": "KEYWORD",
+    "value": "case",
+    "line": 42
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 42
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "address",
+    "line": 42
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 42
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ENABLE",
+    "line": 43
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 43
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 43
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 44
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 44
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "we",
+    "line": 44
+  },
+  {
+    "type": "OPERATOR",
+    "value": "==",
+    "line": 44
+  },
+  {
+    "type": "NUMBER",
+    "value": "1'b1",
+    "line": 44
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 44
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 44
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "enable",
+    "line": 45
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 45
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "write_data",
+    "line": 45
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 45
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 45
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 45
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 45
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 46
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 47
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 47
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "enable",
+    "line": 48
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 48
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "enable",
+    "line": 48
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 48
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 49
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 50
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "SLAVE_ADDRESS",
+    "line": 51
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 51
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 51
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 52
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 52
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "we",
+    "line": 52
+  },
+  {
+    "type": "OPERATOR",
+    "value": "==",
+    "line": 52
+  },
+  {
+    "type": "NUMBER",
+    "value": "1'b1",
+    "line": 52
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 52
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 52
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave_address",
+    "line": 53
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 53
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "write_data",
+    "line": 53
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 53
+  },
+  {
+    "type": "NUMBER",
+    "value": "6",
+    "line": 53
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 53
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 53
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 53
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 53
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 54
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 55
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 55
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave_address",
+    "line": 56
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 56
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave_address",
+    "line": 56
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 56
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 57
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 58
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "READ_WRITE",
+    "line": 59
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 59
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 59
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 60
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 60
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "we",
+    "line": 60
+  },
+  {
+    "type": "OPERATOR",
+    "value": "==",
+    "line": 60
+  },
+  {
+    "type": "NUMBER",
+    "value": "1'b1",
+    "line": 60
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 60
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 60
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_write",
+    "line": 61
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 61
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "write_data",
+    "line": 61
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 61
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 61
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 61
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 61
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 62
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 63
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 63
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_write",
+    "line": 64
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 64
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_write",
+    "line": 64
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 64
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 65
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 66
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "REGISTER_ADDRESS",
+    "line": 67
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 67
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 67
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 68
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 68
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "we",
+    "line": 68
+  },
+  {
+    "type": "OPERATOR",
+    "value": "==",
+    "line": 68
+  },
+  {
+    "type": "NUMBER",
+    "value": "1'b1",
+    "line": 68
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 68
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 68
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "register_address",
+    "line": 69
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 69
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "write_data",
+    "line": 69
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "[",
+    "line": 69
+  },
+  {
+    "type": "NUMBER",
+    "value": "7",
+    "line": 69
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 69
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 69
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "]",
+    "line": 69
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 69
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 70
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 71
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 71
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "register_address",
+    "line": 72
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 72
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "register_address",
+    "line": 72
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 72
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 73
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 74
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "DATA_IN",
+    "line": 75
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 75
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 75
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 76
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 76
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "we",
+    "line": 76
+  },
+  {
+    "type": "OPERATOR",
+    "value": "==",
+    "line": 76
+  },
+  {
+    "type": "NUMBER",
+    "value": "1'b1",
+    "line": 76
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 76
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 76
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_in",
+    "line": 77
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 77
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "write_data",
+    "line": 77
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 77
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 78
+  },
+  {
+    "type": "KEYWORD",
+    "value": "else",
+    "line": 79
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 79
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_in",
+    "line": 80
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 80
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_in",
+    "line": 80
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 80
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 81
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 82
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "DATA_OUT",
+    "line": 83
+  },
+  {
+    "type": "OPERATOR",
+    "value": ":",
+    "line": 83
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 83
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 84
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 84
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "re",
+    "line": 84
+  },
+  {
+    "type": "OPERATOR",
+    "value": "==",
+    "line": 84
+  },
+  {
+    "type": "NUMBER",
+    "value": "1'b1",
+    "line": 84
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 84
+  },
+  {
+    "type": "KEYWORD",
+    "value": "begin",
+    "line": 84
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_data",
+    "line": 85
+  },
+  {
+    "type": "OPERATOR",
+    "value": "=",
+    "line": 85
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_out",
+    "line": 85
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 85
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 86
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 87
+  },
+  {
+    "type": "KEYWORD",
+    "value": "endcase",
+    "line": 89
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 90
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 91
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 95
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "scl",
+    "line": 95
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 95
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 96
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_out",
+    "line": 96
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 96
+  },
+  {
+    "type": "KEYWORD",
+    "value": "wire",
+    "line": 97
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_in",
+    "line": 97
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 97
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "i2c_master",
+    "line": 99
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "uut_master",
+    "line": 99
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 99
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 100
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "clk",
+    "line": 100
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 100
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "clk",
+    "line": 100
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 100
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 100
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 101
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "rst",
+    "line": 101
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 101
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "rst",
+    "line": 101
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 101
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 101
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 102
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "en",
+    "line": 102
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 102
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "enable",
+    "line": 102
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 102
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 102
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 103
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "scl",
+    "line": 103
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 103
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "scl",
+    "line": 103
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 103
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 103
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 104
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ext_slave_address_in",
+    "line": 104
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 104
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "slave_address",
+    "line": 104
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 104
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 104
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 105
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ext_read_write_in",
+    "line": 105
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 105
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "read_write",
+    "line": 105
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 105
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 105
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 106
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ext_register_address_in",
+    "line": 106
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 106
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "register_address",
+    "line": 106
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 106
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 106
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 107
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ext_data_in",
+    "line": 107
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 107
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_in",
+    "line": 107
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 107
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 107
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 108
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_out",
+    "line": 108
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 108
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_out",
+    "line": 108
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 108
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 108
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 109
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_in",
+    "line": 109
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 109
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_in",
+    "line": 109
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 109
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 109
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 110
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "ext_data_out",
+    "line": 110
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 110
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "data_out",
+    "line": 110
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 110
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 111
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 111
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "i2c_slave",
+    "line": 113
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "uut_slave",
+    "line": 113
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 113
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 114
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "clk",
+    "line": 114
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 114
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "clk",
+    "line": 114
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 114
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 114
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 115
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "rst",
+    "line": 115
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 115
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "rst",
+    "line": 115
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 115
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 115
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 116
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "scl",
+    "line": 116
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 116
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "scl",
+    "line": 116
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 116
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 116
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 117
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_out",
+    "line": 117
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 117
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_out",
+    "line": 117
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 117
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ",",
+    "line": 117
+  },
+  {
+    "type": "UNKNOWN",
+    "value": ".",
+    "line": 118
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_in",
+    "line": 118
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": "(",
+    "line": 118
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "sda_in",
+    "line": 118
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 118
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ")",
+    "line": 119
+  },
+  {
+    "type": "PUNCTUATION",
+    "value": ";",
+    "line": 119
+  },
+  {
+    "type": "KEYWORD",
+    "value": "endmodule",
+    "line": 121
+  }
+]

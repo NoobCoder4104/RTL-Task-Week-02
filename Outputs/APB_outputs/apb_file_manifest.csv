@@ -1,0 +1,6 @@
+file_name,file_path,file_type,is_top_module
+apb_protocol.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\APB_RTL\apb_protocol.v,rtl_source,likely_top
+master.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\APB_RTL\master.v,rtl_source,likely_top
+slave1.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\APB_RTL\slave1.v,rtl_source,likely_top
+slave2.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\APB_RTL\slave2.v,rtl_source,likely_top
+test.v,E:\Asmicore_Mentorship Programme\Tasks (RTL+ML+DV)\Projects of weeks\RTL Task 02\APB_RTL\test.v,rtl_source,submodule

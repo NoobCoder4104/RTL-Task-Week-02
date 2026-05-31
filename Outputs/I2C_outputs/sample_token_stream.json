@@ -1,0 +1,107 @@
+{
+  "protocol": "I2C",
+  "module": "i2c",
+  "total_tokens": 417,
+  "first_20_tokens": [
+    {
+      "type": "KEYWORD",
+      "value": "module",
+      "line": 7
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "i2c",
+      "line": 7
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": "(",
+      "line": 7
+    },
+    {
+      "type": "KEYWORD",
+      "value": "input",
+      "line": 8
+    },
+    {
+      "type": "KEYWORD",
+      "value": "wire",
+      "line": 8
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "clk",
+      "line": 8
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 8
+    },
+    {
+      "type": "KEYWORD",
+      "value": "input",
+      "line": 9
+    },
+    {
+      "type": "KEYWORD",
+      "value": "wire",
+      "line": 9
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "rst",
+      "line": 9
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 9
+    },
+    {
+      "type": "KEYWORD",
+      "value": "input",
+      "line": 10
+    },
+    {
+      "type": "KEYWORD",
+      "value": "wire",
+      "line": 10
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": "[",
+      "line": 10
+    },
+    {
+      "type": "NUMBER",
+      "value": "2",
+      "line": 10
+    },
+    {
+      "type": "OPERATOR",
+      "value": ":",
+      "line": 10
+    },
+    {
+      "type": "NUMBER",
+      "value": "0",
+      "line": 10
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": "]",
+      "line": 10
+    },
+    {
+      "type": "IDENTIFIER",
+      "value": "address",
+      "line": 10
+    },
+    {
+      "type": "PUNCTUATION",
+      "value": ",",
+      "line": 10
+    }
+  ]
+}
